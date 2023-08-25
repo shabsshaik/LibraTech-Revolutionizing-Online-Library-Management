@@ -1,0 +1,310 @@
+<HTML>
+<HEAD><TITLE>
+</TITLE>
+<STYLE>
+
+        ::-webkit-scrollbar{
+      width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+      background: transparent; 
+      border-radius: 10px;
+      box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.400);
+  }
+  ::-webkit-scrollbar-thumb{
+      background: #999;
+      border-radius: 10px;
+  } 
+  ::-webkit-scrollbar-thumb:hover{
+      background: #777; 
+  }
+
+</STYLE>
+</HEAD>
+<BODY>
+<b>
+
+<CENTER><u><font face="arial black" size="5" color="brown">TERMS AND CONDITIONS</font> </u></CENTER><br>
+<pre><font face="arial black" size="5">                                                                                                                                                                <a href="menu.php">Go Back &#8592</a></pre></font>
+<font face="times new roman" size="4"> 
+1.<u>	LIBRARIAN</u><br><br>
+ 
+ADMIN LOGIN:<br>
+ 
+Description of feature-<br>             
+ 
+This feature used by the user to login into system.<br> They are required to enter user id and password before they are allowed to enter the system.<br>
+The user id and password will be verified and if invalid id is there user is allowed to not enter the system.<br><br>
+ 
+ 
+ 
+ 
+Functional requirements-<br>
+ 
+-user id is provided when they register<br>
+ 
+-The system must only allow user with valid id and password to enter the system<br>
+ 
+-The system performs authorization process which decides what user level can acess to.<br>
+ 
+-The user must be able to logout after they finished using system.<br>
+
+-The session will starts when admin logged in and librarian can access the website for 3 hours continuously.<br> After 3 hours the session will automatically expired.<br>Admin must need to login again.<br><br>
+ 
+2.<u>REGISTRATION</u><br><br>
+2.1 REGISTER NEW STUDENT:<br>
+ 
+Description of feature-<br>
+ 
+This feature can be performed  to register new student to create account in library.<br>
+RULES:<br>
+1.Registration Number - Registration number must be of 10 characters and must be unique.<br>
+2.Branch - Must be a student of cse.<br>
+3.Email - Entered email must be unique and in use.<br>
+4.Photo - File selected must be of <font   color="blue"><u>JPG,JPEG,PNG </u></font>formats only.<br>
+All the fields must be necessary to fill in.  
+<br><br>
+
+2.2 REGISTER NEW FACULTY:<br>
+ 
+Description of feature-<br>
+ 
+This feature can be performed  to register new faculty to create account in library.<br>
+RULES:<br>
+1.Employee ID - Employee number must be unique.<br>
+2.Department - Faculty must belongs to cse or science and humanity departments.<br> 
+3.Email - Entered email must be unique and in use.<br>
+4.Photo - File selected must be any one of <font  color="blue"><u>JPG,JPEG,PNG </u></font> formats only.<br>
+All the fields must be necessarily fill to login.  
+<br><br>
+ 
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information which is in department record<br>
+ 
+-System must be able to delete information if information is wrong<br><br>
+ 
+3.<u>BOOK DETAILS</u><br><br>
+ 
+3.1 ALL BOOKS AND SEARCH BOOK:<br>
+ 
+ 
+ 
+DESCRIPTION OF FEATURE-<br>
+This feature is found in book maintenance part .<br> We can view all the books in library and the total count of books.<br>We can also search book based on book id , book name , publication or by author name.
+<br>
+The color of the respective book numbered row changed to green when the book is issued and status of the book will be "no". <br><br>
+ 
+
+ 
+Functional requirements-<br>
+ 
+-	System must be able to search the database based on select search type<br>
+ 
+ 
+-	System must be able to filter book based on keyword enterd<br>
+ 
+ 
+-	System must be able to show the filtered book in table view<br><br>
+ 
+ 
+ 
+ 
+3.2 ADD BOOK AND UPLOAD BOOKS:<br>
+ 
+Description of feature-<br>
+
+ 
+This feature allows to add new books to the library<br>Also allows to add a set of books at a time by uploading  a file.<br>
+File selected must be any one of <font   color="blue"><u>XLX,XLSX,CNV,CVV</U></font> formats only.<br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information<br>
+ 
+-System must be able to enter number of copies into table.<br>
+
+- System must be able to not allow two books having same book id.<br><br>
+ 
+
+3.3 DELETE BOOK:<BR>
+    Description of feature-<br>
+
+     
+This feature allows to delete  books from the library<br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information<br>
+ 
+-System must be able to delete book from table.
+
+<br><br>
+4.<u>ISSUE BOOK</u><br><br>
+
+4.1 STUDENT ISSUE:<BR>
+    Description of feature-<br>
+
+     
+This feature allows to issue to the registered students.<br>
+Admin is allowed to enter the book number. <br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify student register number.<br>
+ 
+-System must be able to enter book to the issue table.
+
+<br><br>
+
+4.2 STAFF ISSUE:<BR>
+    Description of feature-<br>
+    
+This feature allows to issue to the registered staff.<br>
+Admin is allowed to enter the book number. <br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify staff register number.<br>
+ 
+-System must be able to enter book to the issue table.<br><br>
+ 
+5.<u>RETURN BOOK</u><br><br>
+
+5.1 STUDENT RETURN:<BR>
+    Description of feature-<br>
+
+     
+This feature allows to return the book which is issued to the students.<br>
+Admin is allowed to enter the register number.
+ <br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify staff register number.<br>
+ 
+-System must be able to delete book from the issue table.
+
+<br><br>
+
+5.2 STAFF RETURN:<BR>
+    Description of feature-<br>
+    
+This feature allows to return  the book which is issued to the staff.<br>
+Admin is allowed to enter the book number. <br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify staff register number.<br>
+ 
+-System must be able to delete book from the issue table.<br><br>
+6.<u>DAILY RECORDS</u><br><br>
+
+6.1 STUDENT RECORD:<BR>
+    Description of feature-<br>
+
+ This feature allows to check number of books that are issued to the student .<BR>
+If the expiry date exceeds then the color of the row changes to red.<br><br>
+ 
+6.2 STAFF RECORD:<BR>
+    Description of feature-<br>
+
+ This feature allows to check number of books that are issued to the staff.<BR>
+If the expiry date exceeds then the color of the row changes to red.<br><br>
+
+
+7.<u>CARD HOLDER</u><br><br>
+
+7.1 STUDENT :<BR>
+    Description of feature-<br>
+    This feature allows to view the number of students registered in library.<br>
+    And also allows to search that a particular student is registered or not.<br><br>
+ 7.2 STUDENT :<BR>
+        Description of feature-<br>
+        This feature allows to view the number of students registered in library.<br>
+        And also allows to search that a particular student is registered or not.<br><br>
+      
+ 
+        8.<u>UPLOAD RECORDS</u><br><br>
+
+        8.1 UPLOAD STUDENT RECORDS :<BR>
+
+  
+Description of feature-<br>
+
+ 
+This feature allows to add new student to the library records.<br>Also allows to add a set of students at a time by uploading  a file.<br>
+File selected must be any one of <font   color="blue"><u>XLX,XLSX,CNV,CVV</U></font> formats only.<br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information<br>
+ 
+-System must be able to enter number of copies into table.<br>
+
+- System must be able to not allow two students having same register number.<br>If entered the same number then the details of the respective register number will get updated.<br><br>
+ 
+
+8.2 UPLOAD STAFF RECORDS :<BR>
+
+  
+    Description of feature-<br>
+    
+     
+    This feature allows to add new faculty to the library records.<br>Also allows to add a set of faculty at a time by uploading  a file.<br>
+    File selected must be any one of <font  color="blue"><u>XLX,XLSX,CNV,CVV</U></font> formats only.<br><br>
+     
+    Functional requirements-<br>
+     
+    -System must be able to verify information<br>
+     
+    -System must be able to enter number of copies into table.<br>
+    
+    - System must be able to not allow two faculty having same register number.<br>If entered the same number then the details of the respective register number will get updated.<br><br>
+
+    
+8.3 DELETE STUDENT RCORDS:<BR>
+    Description of feature-<br>
+
+     
+This feature allows to delete the student from the library records.<br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information<br>
+ 
+-System must be able to delete student from students record table.
+
+<br><br>
+8.4 DELETE STAFF RCORDS:<BR>
+    Description of feature-<br>
+
+     
+This feature allows to delete the faculty from the library records.<br><br>
+ 
+Functional requirements-<br>
+ 
+-System must be able to verify information<br>
+ 
+-System must be able to delete faculty from staff record table.
+
+<br><br>
+9.<u>PROFILE</u><br><br> 
+9.1 STUDENT PROFILE:<BR>
+    Description of feature-<br>
+    This feature allows to view the register details and the issued books details of the student.
+    <br>Admin is allowed to enter the register number that need to be search.<br><br>
+
+    9.2 STAFF PROFILE:<BR>
+        Description of feature-<br>
+        This feature allows to view the register details and the issued books details of the staff.
+        <br>Admin is allowed to enter the register number that need to be search.<br><br>
+    
+10.<u>LOGOUT</u><br><br>
+Description of feature-<br>
+    This feature allows to close the website completely.<br>
+    Once the Admin is logged out , he cannot access the features of the software.Admin must be login again.<br<br> 
+
+</BODY>
+</HTML>

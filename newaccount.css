@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav{
+      overflow: hidden;
+      background-color: #FFB573;
+      border-radius: 1px;
+    
+    }
+    .topnav ul{
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .topnav ul li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    .topnav a {
+      float: left;
+      font-size: 20px;
+      color: black;
+      text-align: right;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      display: block;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 20px;  
+      border: none;
+      outline: none;
+      color: black;
+      padding: 12px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: #FF9C4A;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute ;
+      background-color: #FFB573;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #FF9C4A;
+      
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .mySlides {display:none;}
+    
+    h2 {
+                margin: 10px auto;
+                text-align: center;
+                color: #3152A5;
+                font-size: 38;
+                transition: 0.5s;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 0 0 5px rgba(167, 159, 159, 0.100);
+    }
+
+    .top{
+        margin: 0 auto;
+        text-align: center;
+        background-image: url(navi.png);
+    }
+    
+    .top h1{
+        font-family: Engravers MT;
+        padding: 10px 0 6px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #3152A5;
+        text-shadow: 0 2px 8px rgb(0, 0, 0,0.100);
+    }
+    
+    .top p{
+        font-family: Engravers MT;
+        padding-bottom: 10px;
+        font-size: 24px;
+        color:#3152A5;
+        text-shadow: 0 2px 8px rgb(0, 0, 0,0.100);
+    }
+
+    .myButton {
+          background:linear-gradient(to bottom, #39ca74 5%, #5cbf2a 100%);
+          background-color:#39ca74;
+          border-radius:33px;
+          border:1px solid #18ab29;
+          display:inline-block;
+          cursor:pointer;
+          color:#ffffff;
+          font-family:Comic Sans MS;
+          font-size:17px;
+          padding:10px 20px;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #2f6627;
+              }
+    .myButton:hover{
+          box-shadow:0 0 15px #229b4ada;
+                    }
+.myButton:active {
+position:relative;
+top:1px;
+}
+
+.pay{
+border-radius:4px;
+border:1px solid #000b6e91;
+display: inline-block;
+cursor:pointer;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-left-radius:10px;
+color:(212,16,16);
+font-family:arial;
+font-size:15px;
+padding:6px 15px;
+text-decoration:none;
+text-shadow:0px 1px 0px #d46700;
+}
+
+.pay:hover{
+box-shadow:0 0 15px #aab3b3ab;
+}
+
+.input-field{ 
+width: 300px;
+height: 30px;
+margin-top: 20px;
+padding-left: 10px;
+border: 1px solid rgb(1,10,10);
+border-radius: 14px;
+outline: none;
+}

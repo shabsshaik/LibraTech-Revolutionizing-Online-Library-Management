@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    body{
+  
+        background-image: url("https://media.istockphoto.com/photos/modern-keyboard-wih-blue-log-in-button-picture-id638149354?b=1&k=20&m=638149354&s=170667a&w=0&h=K_dd1EuWBMmyU0A5IN4igEUROFozhvtj7CtJ0GswHLE=");
+        background-repeat: no-repeat;
+        background-size: 100% 125%;
+    }
+
+    .top{
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+    
+    .top h1{
+        font-family: Engravers MT;
+        font-size: 32px;
+        font-weight: bold;
+        color:#000 ;
+        padding: 5px 0;
+        text-shadow: 0 2px 8px rgb(247, 246, 246,0.550);
+       
+    }
+    
+    .top p{
+        font-family: Engravers MT;
+        font-size: 24px;
+        color:#000;
+        text-shadow: 0 2px 8px rgba(248, 240, 240, 0.550);
+    }
+    
+    .container{
+        display: flex;
+        width:700px;
+        background-color: #fff;
+        margin: 140px auto 100px;
+        opacity: 0.750;
+        border-radius: 10px;
+
+    }
+    
+    .container img{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10px 0 0 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.350);
+    }
+    
+    .enter{
+        background-color: #FFF;
+        border-radius: 0 10px 10px 0;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.350);
+    }
+    
+    form {
+        text-align: center;     
+    }
+    
+    .box
+    {
+        background-color: #FFF;
+        margin: 0 auto;
+        width:500px;
+        
+    }
+    
+    .box h1{
+        background-color: #FFF;
+        font-weight: 600;
+        font-size: 26px;
+        margin: 30px 0;
+        
+    }
+    
+    .box input[type="text"],.box input[type="password"]
+    {
+    border:0;
+    background:none;
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    border:2px solid #3498db;
+    padding:10px;
+    width:200px;
+    outline:none;
+    color:rgb(12, 11, 11);
+    border-radius:24px;
+    transition:0.25s;
+    cursor:pointer;
+    }
+    
+    
+    .box input[type="text"]:focus,.box input[type="password"]:focus
+    {
+    width:280px;
+    border-color:#2ecc71;
+    }
+    
+    
+    .box input[type="submit"]
+    {
+    border:0;
+    background:none;
+    display:block;
+    margin: 15px auto;
+    text-align:center;
+    font-weight: 500;
+    font-size: 14px;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25s;
+    cursor:pointer;
+    }
+    
+
+    .box input[type="submit"]{
+        background:#00f566;
+        }
+
+        .box input[type="submit"]:hover{
+            box-shadow:0 0 5px #00f566a9 ,0 0 5px #00f56696,0 0 20px #00f5668e,0 0 50px #00f56688;
+            }
+    
+    

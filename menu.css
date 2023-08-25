@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: transparent; 
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.400);
+}
+::-webkit-scrollbar-thumb{
+    background: #999;
+    border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb:hover{
+    background: #777; 
+}
+
+.top{
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(navi.png);
+}
+
+.top h1{
+  font-family: Engravers MT;
+  padding: 10px 0 6px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3152A5;
+  text-shadow: 0 2px 8px rgb(0, 0, 0,0.100);
+}
+
+.top p{
+  font-family: Engravers MT;
+  padding-bottom: 10px;
+  font-size: 24px;
+  color:#3152A5;
+  text-shadow: 0 2px 8px rgb(0, 0, 0,0.100);
+}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: 50px 100px 0 170px;
+    flex-basis: 60%;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 100px) {
+    .text {font-size: 11px}
+  }
+  .topnav{
+    overflow: hidden;
+    background-color: #FFB573;
+    text-align: center;
+    height: 47px;
+  }
+  .topnav ul{
+    overflow: hidden;
+  }
+
+  .topnav ul li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  .topnav a {
+    float: left;
+    font-size: 19px;
+    color: black;
+    text-align: right;
+    padding: 12px 31px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 19px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 12px 19px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  
+  .topnav a:hover, .dropdown:hover{
+    background-color: #FF9C4A;
+    border-radius: 2px;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFB573;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 19px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #FF9C4A;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .all{
+    display: flex;
+  }
+  .des{
+    flex-basis: 40%;
+    margin-right: 155px;
+    text-align: justify;
+  }
+  .des h3{
+    color: #3152A5;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 55px;
+  }
+
+ .mySlides {display:none;}
